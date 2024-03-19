@@ -36,12 +36,12 @@ const Contact = () => {
       <StyledContactForm className=" text-white">
       <form className="text-white border-white" ref={form} onSubmit={sendEmail}>
         <label className="text-white">Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" className="text-black" name="user_name" />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" className="text-black" name="user_email" />
         <label>Have an Idea or message?</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <textarea className="text-black" name="message" />
+        <input type="submit"  value="Send" />
       </form>
     </StyledContactForm>
     </div>

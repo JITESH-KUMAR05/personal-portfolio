@@ -10,8 +10,8 @@ function Connect() {
         </h2>
         <br />
 
-        <div className="card-grid p-5  ">
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+        <div className=" flex w-[70rem] m-auto flex-wrap gap-5 p-5  ">
+          <div className="card w-[20rem] flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between   font-semibold rounded-[1rem]">
             <h1 className=" font-black">My Resume</h1>
             <a
               target="_blank"
@@ -28,7 +28,7 @@ function Connect() {
             </a>
           </div>
           
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+          <div className="card  flex card w-[20rem]  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between  font-semibold rounded-[1rem]">
             <h1 className=" font-black">My Linkedin</h1>
             <a
               target="_blank"
@@ -44,7 +44,7 @@ function Connect() {
               </svg>
             </a>
           </div>
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-betweencard w-[20rem]  font-semibold rounded-[1rem]">
             <h1 className=" font-black">My Github</h1>
             <a
               target="_blank"
@@ -60,7 +60,7 @@ function Connect() {
               </svg>
             </a>
           </div>
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between card w-[20rem]  font-semibold rounded-[1rem]">
             <h1 className=" font-black">My Discord</h1>
             <a
               target="_blank"
@@ -77,7 +77,7 @@ function Connect() {
             </a>
           </div>
 
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between card w-[20rem]  font-semibold rounded-[1rem]">
             <h1 className=" font-black">My Twitter </h1>
             <a
               target="_blank"
@@ -94,7 +94,7 @@ function Connect() {
             </a>
           </div>
 
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between card w-[20rem]  font-semibold rounded-[1rem]">
             <h1 className=" font-black">My Insta </h1>
             <a
               target="_blank"
@@ -111,7 +111,7 @@ function Connect() {
             </a>
           </div>
 
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between card w-[20rem]  font-semibold rounded-[1rem]">
             <h1 className=" font-black">My StackOverflow </h1>
             <a
               target="_blank"
@@ -130,7 +130,7 @@ function Connect() {
 
           <Link
             to={"/letstalk"}
-            className="connect flex  border-[1px]  font-black border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  rounded-[1rem]"
+            className="connect flex  border-[1px]  font-black border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between card w-[20rem]  rounded-[1rem]"
           >
             Let's Talk
           </Link>
