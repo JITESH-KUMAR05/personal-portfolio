@@ -1,84 +1,106 @@
-import React, { useState } from 'react';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import styled from "styled-components";
 
+// npm i @emailjs/browser
 
+const Contact = () => {
+  const form = useRef();
 
-function LetsTalk() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    // Here you can implement the logic to handle the form submission
-    console.log('Submitted:', { name, email, message });
-    // Clearing the form fields after submission
-    setName('');
-    setEmail('');
-    setMessage('');
+
+    emailjs
+      .sendForm(
+        "service_mbr86hb",
+        "template_zln000t",
+        form.current,
+        "nxcnqB_CSi2A-UEL1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
-
-    return (
-      <div>
-        
-
-        <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-bold mb-4">Let's Talk</h2>
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-        <div className="mb-4">
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-            Name
-          </label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="mt-1 p-2 block w-full border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Your Name"
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="mt-1 p-2 block w-full border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Your Email"
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-            Message
-          </label>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            className="mt-1 p-2 block w-full border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-            rows="4"
-            placeholder="Your Message"
-            required
-          ></textarea>
-        </div>
-        <button
-          type="submit"
-          className="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-300"
-        >
-          Submit
-        </button>
+  return (
+    <div className="home-container">
+      <h1 className="  flex justify-center text-white font-extrabold text-[5rem] ">Let's Get in touch</h1>
+      <div className="flex w-full justify-center items-center ">
+      
+      <StyledContactForm className=" text-white">
+      <form className="text-white border-white" ref={form} onSubmit={sendEmail}>
+        <label className="text-white">Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Have an Idea or message?</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
       </form>
+    </StyledContactForm>
     </div>
+    </div>
+  );
+};
 
+export default Contact;
 
-      </div>
-    );
+// Styles
+const StyledContactForm = styled.div`
+  width: 400px;
+
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+
+    input {
+      width: 100%;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+
+    textarea {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+      max-height: 100px;
+      min-height: 100px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+
+    label {
+      margin-top: 1rem;
+    }
+
+    input[type="submit"] {
+      margin-top: 2rem;
+      cursor: pointer;
+      background: green;
+      color: white;
+      border: none;
+    }
   }
-  
-  export default LetsTalk;
+`;

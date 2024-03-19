@@ -3,16 +3,16 @@ import "./connect.css"
 
 function Connect() {
   return (
-    <div className=" w-[100vw] mt-[5rem]  ">
-      <div className="w-[100% mt-5">
-        <h2 className="font-black text-2xl p-5 text-black ">
+    <div className=" w-[100vw] text-white home-container   ">
+      <div className="w-[100% ">
+        <h2 className="font-black text-2xl p-5  ">
           Connect with me on social media
         </h2>
         <br />
 
         <div className="card-grid p-5  ">
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My Resume</h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My Resume</h1>
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1G6lkdxCgRJlyqSQyVmqrHjQsRXIz9sMj/view?usp=sharing"
@@ -28,8 +28,8 @@ function Connect() {
             </a>
           </div>
           
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My Linkedin</h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My Linkedin</h1>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/jitesh-kumar-5190ba240/"
@@ -44,8 +44,8 @@ function Connect() {
               </svg>
             </a>
           </div>
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My Github</h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My Github</h1>
             <a
               target="_blank"
               href="https://github.com/JITESH-KUMAR05"
@@ -60,8 +60,8 @@ function Connect() {
               </svg>
             </a>
           </div>
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My Discord</h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My Discord</h1>
             <a
               target="_blank"
               href="https://discordapp.com/users/jk05_/"
@@ -77,8 +77,8 @@ function Connect() {
             </a>
           </div>
 
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My Twitter </h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My Twitter </h1>
             <a
               target="_blank"
               href="https://twitter.com/Jitesh_Kumar05"
@@ -94,8 +94,8 @@ function Connect() {
             </a>
           </div>
 
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My Insta </h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My Insta </h1>
             <a
               target="_blank"
               href="https://www.instagram.com/j_k__05__/"
@@ -111,8 +111,8 @@ function Connect() {
             </a>
           </div>
 
-          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
-            <h1 className="text-black font-black">My StackOverflow </h1>
+          <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  font-semibold rounded-[1rem]">
+            <h1 className=" font-black">My StackOverflow </h1>
             <a
               target="_blank"
               href="https://stackoverflow.com/users/23510505/jitesh-kumar"
@@ -130,7 +130,7 @@ function Connect() {
 
           <Link
             to={"/letstalk"}
-            className="connect flex  border-[1px] text-black font-black border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  rounded-[1rem]"
+            className="connect flex  border-[1px]  font-black border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%]  rounded-[1rem]"
           >
             Let's Talk
           </Link>
