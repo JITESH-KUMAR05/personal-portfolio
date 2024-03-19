@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pic from "../assets/bg.jpg";
+import pic from "../assets/images/jitesh1.jpg";
 import bg from "../assets/bg-home.jpg";
 import "./home.css"
 
@@ -14,7 +14,7 @@ function Home() {
         <div className="w-[30%] mt-[5rem]  ">
           <img
             src={pic}
-            className="w-[80%] ml-5 h-[30rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500 "
+            className="w-[80%] ml-5 h-[30rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-[#C185f0] "
             alt="jitesh here..."
           />
         </div>
