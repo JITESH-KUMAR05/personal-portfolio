@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
-// import "./connect.css"
+import "./connect.css"
 
 function Connect() {
   return (
-    <div className="home-container w-[70vw] mt-[5rem] mx-auto ">
+    <div className=" w-[100vw] mt-[5rem]  ">
       <div className="w-[100% mt-5">
-        <h2 className="font-black text-2xl text-black ">
+        <h2 className="font-black text-2xl p-5 text-black ">
           Connect with me on social media
         </h2>
+        <br />
 
-        <div className=" gap-4  mt-2 card-grid ">
+        <div className="card-grid p-5  ">
           <div className="card  flex  border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] justify-between w-[45%] text-black font-semibold rounded-[1rem]">
             <h1 className="text-black font-black">My Resume</h1>
             <a
               target="_blank"
-              href="https://docs.google.com/document/d/126pcwz5J_ICrMP8bJe4updkxSvv8aI68/edit?usp=sharing&ouid=102716288857617305271&rtpof=true&sd=true"
+              href="https://drive.google.com/file/d/1G6lkdxCgRJlyqSQyVmqrHjQsRXIz9sMj/view?usp=sharing"
               className="connect  "
             >
               <svg

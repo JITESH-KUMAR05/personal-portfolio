@@ -1,38 +1,41 @@
 import { Link } from "react-router-dom";
-// import pic from "../assets/DP.jpg";
+import pic from "../assets/bg.jpg";
+import "./home.css"
+
+
 
 function Home() {
-    return (
-        <div className="home-container w-[99vw] mt-[5rem]  ">
-            <div className="flex justify-evenly gap-5 w-[100%] px-5 " >
-            <div className="w-[30%]">
-                <img
-                    src={"https://source.unsplash.com/random/?"}
-                    className="w-[100%] h-[20rem] box-shadow rounded-[24px] object-cover "
-                    alt="jitesh here..."
-                />
-            </div>
-            <div className=" w-[50%] ">
-                <h2 className="font-black text-2xl text-black ">
-                    Hey I am Jitesh Kumar
-                </h2>
-                <p className="mt-2">
-                    {" "}
-                    I am a front end developer and a first year student at Anurag
-                    University{" "}
-                </p>
-                <p className="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-                    iste aut eum nesciunt, ut obcaecati earum vero, expedita possimus
-                    harum quis deleniti odio. Nihil, tenetur at. Repellendus odio aut
-                    dolor nobis nulla ratione rem quaerat, ea repudiandae expedita porro
-                    obcaecati.
-                </p>
+    
 
-            </div>
-            </div>
+  return (
+    <div className="home-container bg-transparent z-2 absolute top-0 w-[99vw] mt-[4.4rem] ">
+      <div className="flex justify-evenly relative items-center gap-5 w-[100%] px-5 ">
+        <div className="w-[30%] mt-[5rem]  ">
+          <img
+            src={pic}
+            className="w-[100%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500 "
+            alt="jitesh here..."
+          />
+        </div>
 
-            <div className="w-[100% mt-5">
+
+        <div className=" w-[50%] ">
+
+            <h1 className=" text-[50px] text-white font-bold  ">Hi , This is Jitesh Kumar</h1>
+            <h1 className="text-[50px] text-white font-bold">I am a Web Developer</h1>
+
+            
+
+        
+
+        </div>
+      </div>
+
+      
+
+      
+
+      {/* <div className="w-[100% mt-5">
 
 
                 <div className="flex gap-4 w-[100%] mt-2 flex-wrap">
@@ -93,9 +96,9 @@ function Home() {
                         Let's Talk
                     </Link>
                 </div>
-            </div>
-        </div>
-    );
+            </div> */}
+    </div>
+  );
 }
 
 export default Home;
