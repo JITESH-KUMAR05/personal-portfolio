@@ -37,7 +37,7 @@ function About() {
           </p>
 
           <img
-            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-[#C185f0]"
             src={datadynamo}
             alt=""
           />
@@ -54,7 +54,7 @@ function About() {
           </p>
 
           <img
-            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-[#C185f0]"
             src={innovasia}
             alt=""
           />
@@ -68,7 +68,7 @@ function About() {
         </p>
 
         <img
-            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-[#C185f0]"
             src="https://source.unsplash.com/random?bill-gates"
             alt=""
           />
@@ -86,7 +86,7 @@ function About() {
         </p>
 
         <img
-            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-[#C185f0]"
             src="https://source.unsplash.com/random?bill-gates"
             alt=""
           />
