@@ -20,6 +20,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Message Sent, I will get back to you shortly", result.text);
           console.log("message sent");
         },
         (error) => {
