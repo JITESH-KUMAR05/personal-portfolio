@@ -22,10 +22,12 @@ function Home() {
 
         <div className=" w-[50%] ">
 
-            <h1 className=" text-[50px] text-white font-bold  ">Hi , This is Jitesh Kumar</h1>
-            <h1 className="text-[50px] text-white font-bold">I am a Web Developer</h1>
+            <h1 className=" text-[50px] text-white font-bold  ">Hi , This is <span className="text-[#8a30d0]">Jitesh Kumar</span></h1>
+            <h1 className="text-[50px] text-white font-bold">I'm  <span className="text-[#C185f0]">Web Developer</span></h1>
 
-            
+            <br /><br /><br /><br />
+
+            <a href="https://drive.google.com/file/d/1G6lkdxCgRJlyqSQyVmqrHjQsRXIz9sMj/view?usp=sharing" target="_blank" > <button className="px-[1.75rem] bg-[#B43757] py-[1rem] inline-block text-white font-extrabold text-[1.3rem] rounded-[1rem] hover:bg-[#c043bce7]  ">Download CV</button></a>
 
         
 
