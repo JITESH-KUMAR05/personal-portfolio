@@ -1,21 +1,101 @@
+import pic1 from "../assets/images/jitesh1.jpg"
+import datadynamo from "../assets/images/data dynamo.png"
+import innovasia from "../assets/images/innovasia.png"
 
 function About() {
-    return (
-      <div>
-        <h1>About</h1>
-        <p> Hello there! I'm Jitesh Kumar, a passionate first-year B.Tech IT student at Anurag University, and I'm thrilled to welcome you to my digital space.
+  return (
+    <div className="w-[100vw] about-container ">
+      <div className=" w-full text-white   ">
+        <div className=" text-white w-[25rem] m-auto text-[3rem] ">
+          <h1 className="font-bold">More About Me </h1>
+        </div>
 
-🌟 As a budding web developer and tech enthusiast, I'm on a mission to unlock the boundless possibilities of the digital realm. From crafting captivating user experiences to diving deep into the intricacies of code, I'm fueled by a relentless curiosity and a drive for excellence.
+        <div className=" w-[100vw] p-5 flex justify-center items-center gap-5 ">
+          <p className=" text-white w-[50%] text-[2.5rem] ">
+            {" "}
+            Hello there! I'm <br />
+            <span className=" text-[3.5rem] font-extrabold text-[blueviolet] ">
+              Jitesh Kumar
+            </span>{" "}
+            <br />
+            a passionate first-year <br /> B.Tech student at <span className=" text-[3.5rem] font-extrabold text-[#A3a3a6] ">Anurag University</span>.
+          </p>
+          <img
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-[#C185f0]"
+            src={pic1}
+            alt=""
+          />
+        </div>
 
-💻 My journey into the world of technology began with a spark of curiosity and has since evolved into a burning passion. From mastering the intricacies of the MERN stack to exploring the endless potential of Python, I'm constantly pushing the boundaries of what's possible in the ever-evolving tech landscape.
+        <div className=" w-[100vw] p-5 flex justify-center items-center gap-5 ">
+          <p className=" w-[50%] text-[2.5rem] ">
+            My journey into the world of technology began with a spark of
+            curiosity and has since evolved into a burning passion. From
+            mastering the intricacies of the MERN stack to exploring the endless
+            potential of Python, I'm constantly pushing the boundaries of what's
+            possible in the ever-evolving tech landscape.
+          </p>
 
-🚀 But my journey isn't just about coding—it's about community. As a proud member of the Geeks for Geeks Club and IEEE, I thrive in collaborative environments where ideas are born, nurtured, and transformed into reality. Whether it's organizing workshops, mentoring peers, or participating in hackathons, I'm always eager to connect, collaborate, and innovate.
+          <img
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            src={datadynamo}
+            alt=""
+          />
+        </div>
 
-🌈 Beyond the screen, you'll find me on the sports field, channeling my competitive spirit into cricket, badminton, basketball, and table tennis. Because life is all about balance, right?
+        <div className=" w-[100vw] p-5 flex justify-center items-center gap-5 ">
+          <p className=" w-[50%] text-[2.5rem] ">
+            But my journey isn't just about coding—it's about community. As a
+            proud member of the Geeks for Geeks Club and IEEE, I thrive in
+            collaborative environments where ideas are born, nurtured, and
+            transformed into reality. Whether it's organizing workshops,
+            mentoring peers, or participating in hackathons, I'm always eager to
+            connect, collaborate, and innovate.
+          </p>
 
-✨ So, whether you're here to explore my projects, connect over a shared passion for technology, or simply say hello, I'm excited to embark on this journey together. Let's code, create, and inspire—because the possibilities are limitless when we dare to dream big!</p>
+          <img
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            src={innovasia}
+            alt=""
+          />
+        </div>
+
+        <div className=" w-[100vw] p-5 flex justify-center items-center gap-5 ">
+        <p className=" w-[50%] text-[2.5rem] ">
+          Beyond the screen, you'll find me on the sports field, channeling my
+          competitive spirit into cricket, badminton, basketball, and table
+          tennis. Because life is all about balance, right?
+        </p>
+
+        <img
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            src="https://source.unsplash.com/random?bill-gates"
+            alt=""
+          />
+
+
+        </div>
+ 
+ <div className=" w-[100vw] p-5 flex justify-center items-center gap-5 ">
+ <p className=" w-[50%] text-[2.5rem] ">
+          {" "}
+          So, whether you're here to explore my projects, connect over a shared
+          passion for technology, or simply say hello, I'm excited to embark on
+          this journey together. Let's code, create, and inspire—because the
+          possibilities are limitless when we dare to dream big!
+        </p>
+
+        <img
+            className=" w-[30%] h-[35rem] box-shadow rounded-[24px] object-cover shadow-lg drop-shadow-xl shadow-blue-500"
+            src="https://source.unsplash.com/random?bill-gates"
+            alt=""
+          />
+
+ </div>
+        
       </div>
-    );
-  }
-  
-  export default About;
+    </div>
+  );
+}
+
+export default About;

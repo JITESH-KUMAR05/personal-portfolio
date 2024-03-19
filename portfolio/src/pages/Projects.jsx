@@ -1,9 +1,9 @@
 import hulu from "../assets/hulu.png";
 function Projects() {
   return (
-    <div className=" w-[70vw] mt-[2rem] mx-auto px-10 pb-20">
+    <div className=" about-container w-[100vw] text-white  mx-auto px-10 pb-20">
       
-        <h1 className=" text-black font-black text-3xl justify-center mx-96 mt-0 mb-[3rem] ">
+        <h1 className=" pt-5 font-black text-3xl justify-center mx-96 mt-0 mb-[3rem] ">
           My Projects
         </h1>
       
