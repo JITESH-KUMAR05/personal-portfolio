@@ -14,7 +14,7 @@ function Projects() {
             <h1 className="text-xl font-bold text-white">Hulu Clone</h1>
             <div className="flex justtify-between gap-2">
               <button>
-                <a href="" target="_blank">
+                <a href="https://github.com/JITESH-KUMAR05/movie-details-web-app" target="_blank">
                   <svg
                     className="w-[2rem] inline-block h-5 -rotate-45 text-white "
                     xmlns="http://www.w3.org/2000/svg"
